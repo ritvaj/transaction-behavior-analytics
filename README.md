@@ -18,25 +18,6 @@ Alongside the business framing, the project serves as an end-to-end application 
 
 ---
 
-**1. Raw Transactions**
-    ↓
-**2. Cleaning & Preparation**
-    ↓
-**3. Behavioral Feature Engineering**
-   • mismatch signals  
-   • velocity indicators  
-   • balance anomalies  
-   • mule-behavior scoring  
-    ↓
-**4. Exploratory Analytics (EDA)**
-    ↓
-**5. Fraud Signal Score (Rule-Based Model)**
-    ↓
-**6. Threshold Evaluation & A/B Testing**
-    ↓
-**7. Insights & High-Risk Account Detection**
-
-
  ## 🔄 End-to-End Analysis Pipeline
  
 [ Raw Transactions ]
@@ -160,15 +141,15 @@ This project focuses on engineering **interpretable, rule-based signals** across
 - `origin_drain_by_type` — cumulative drain metric for origin by transaction type. 
 
 ### **3. Velocity Features**
-- 'orig_tx_count_step' — count of recent outgoing tx from origin (int)
-- 'Dest_tx_count_step' — count of recent incoming tx to destination
+- `orig_tx_count_step` — count of recent outgoing tx from origin (int)
+- `Dest_tx_count_step` — count of recent incoming tx to destination
 - `dest_tx_count_last3` — count of recent incoming tx to destination in the last 3 consecutive steps
 
 ### **4. Mule Behavior Indicators**
 - `is_pass_through` — destination immediately forwards funds (1/0)
 - `is_many_senders` — destination receives from many distinct senders (1/0)  
-- 'is_dest_high_velocity' — destination has very high recent inbound velocity (1/0) 
-- `is_new_dest` — first-time receiver indicator (`dest_tx_count_lifetime == 1`) (1/0)
+- `is_dest_high_velocity` — destination has very high recent inbound velocity (1/0) 
+- `is_high_amount` — thresholded high-amount flag (1/0)
 
 ---
 

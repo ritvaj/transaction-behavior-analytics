@@ -179,6 +179,30 @@ Tables are provided in:
 outputs/tables/threshold_metrics.csv
 outputs/tables/ab_test_results.csv
 
+### 📈 Fraud Signal Score Distribution
+
+<p align="center">
+  <img src="outputs/figures/07_fraudscore_fraud_vs_nonfraud.png" width="650">
+</p>
+
+**Insight:**  
+Fraud transactions consistently score higher on the Fraud Signal Score, clustering between **1–3**, while legitimate traffic sits tightly around **0–1**.  
+The two densities overlap — as expected in real payment systems — but fraud shows a **clear right-shift** and a noticeably **heavier mid-score tail**.
+
+This confirms that the engineered behavioral signals (mismatch rules, velocity features, mule-like patterns) collectively capture **meaningful anomaly structure**, even on an extremely imbalanced synthetic dataset.
+
+### 🎯 Precision–Recall Curve (Threshold Evaluation)
+
+<p align="center">
+  <img src="outputs/figures/precision_recall_curve.png" width="650">
+</p>
+
+**Insight:**  
+Fraud is **extremely rare (0.13%)**, so precision naturally stays low — but the curve still shows a **clear improvement** over a random or flat baseline.  
+The Fraud Signal Score successfully **ranks frauds earlier** as thresholds loosen, producing a curve with real shape instead of noise.
+
+While absolute precision remains modest (expected on synthetic imbalance), the model demonstrates **strong relative separation**, validating that the rule-based scoring approach provides **useful prioritization** for downstream fraud operations.
+
 
 
 Top 10 high-risk accounts (based on cumulative score):

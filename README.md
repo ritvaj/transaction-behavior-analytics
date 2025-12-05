@@ -208,6 +208,15 @@ Tables are provided in:
 outputs/tables/threshold_metrics.csv
 outputs/tables/ab_test_results.csv
 
+
+### Top 10 high-risk accounts (based on cumulative score):
+Using the final Fraud Signal Score, we identify the top 10 destination accounts with the strongest anomaly patterns (high maximum score, high total score, and dense inbound activity).
+
+These accounts exhibit behaviors typical of money-mule aggregation or pass-through flows.
+Table provided in:
+
+outputs/tables/top10_high_risk_accounts.csv
+
 ---
 
 ## 📊 Model Performance Visuals
@@ -267,12 +276,6 @@ This validates that the combined rule-based signals capture **meaningful anomaly
 **Insight:**  
 With fraud occurring only **0.13%** of the time, baseline precision is extremely low — yet the Fraud Signal Score shows **clear ranking power**, producing a meaningful curve instead of noise.  
 While absolute precision is modest (normal for synthetic imbalance), the model demonstrates **strong relative ordering**, enabling better queueing and investigation prioritization in real fraud operations.
-
-
-
-
-Top 10 high-risk accounts (based on cumulative score):
-
 
 ---
 

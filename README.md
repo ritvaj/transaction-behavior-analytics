@@ -18,6 +18,26 @@ Alongside the business framing, the project serves as an end-to-end application 
 
 ---
 
+Raw Transactions  
+    ↓
+Cleaning & Preparation  
+    ↓
+Behavioral Feature Engineering  
+    - mismatch rules  
+    - velocity indicators  
+    - balance signals  
+    - mule behavior scoring  
+    ↓
+Exploratory Analytics (EDA)  
+    ↓
+Fraud Signal Score Construction  
+    ↓
+Threshold Evaluation & A/B Testing  
+    ↓
+Insights & High-Risk Account Identification
+
+---
+
 ## 🎯 Objectives
 
 - Understand transaction behavior at scale and map patterns linked to fraud signals.  
@@ -27,6 +47,16 @@ Alongside the business framing, the project serves as an end-to-end application 
 - Identify high-risk accounts and transaction patterns for further investigation.
 
 ---
+
+## 🛠 Tools & Skills Applied
+
+- **Python (NumPy, pandas):** Data cleaning, feature engineering, and anomaly rule construction  
+- **Matplotlib & Seaborn:** Behavioral visualizations, density plots, threshold curves  
+- **Jupyter Notebook:** Iterative development and EDA workflow  
+- **Data Modeling:** Transaction behavior segmentation, risk-signal construction  
+- **Feature Engineering:** Velocity rules, mismatch patterns, balance signals, mule behavior indicators  
+- **Fraud Analytics:** Threshold testing, precision–recall evaluation, high-risk account identification
+
 
 ## 📁 Repository Structure
 

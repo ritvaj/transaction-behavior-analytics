@@ -186,10 +186,10 @@ The following visuals summarize how the engineered behavioral features translate
 
 ---
 
-### 🔄 Destination Activity vs Mismatch Rate
+### 🔄 Mismatch Rate vs Destination Activity
 
 <p align="center">
-  <img src="outputs/figures/04_mismatch_rate_vs_destination_activity_level.png" width="650">
+  <img src="outputs/figures/04_Mismatch_Rate_vs_Destination_Activity_Level.png" width="650">
 </p>
 
 **Insight:**  
@@ -205,7 +205,7 @@ Although higher-activity buckets have smaller sample sizes, the overall upward t
 ### 🕵️ Mule Score Density — Fraud vs Non-Fraud
 
 <p align="center">
-  <img src="outputs/figures/06_mule_score_fraud_vs_nonfraud.png" width="650">
+  <img src="outputs/figures/06_Mule_Score_Fraud_vs_Non_Fraud.png" width="650">
 </p>
 
 **Insight:**  
@@ -218,7 +218,7 @@ High mule scores are extremely rare among normal users, making this a **highly r
 ### 🔐 Fraud Signal Score Distribution — Fraud vs Non-Fraud
 
 <p align="center">
-  <img src="outputs/figures/07_fraudscore_fraud_vs_nonfraud.png" width="650">
+  <img src="outputs/figures/07_FraudScore_fraud_vs_nonfraud.png" width="650">
 </p>
 
 **Insight:**  

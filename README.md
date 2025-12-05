@@ -155,10 +155,11 @@ This project focuses on engineering **interpretable, rule-based signals** across
 
 ## 🔍 Fraud Signal Score (Interpretable Risk Index)
 
-A weighted sum of anomaly indicators:
+Weighted, rule-based scoring system combining key anomaly features into a single interpretable risk measure.:
 
 fraud_signal_score =
-2.5 * mule_score_high
+
+2.5 * mule_score_w_high
 
 2.5 * both_mismatch
 
@@ -186,6 +187,8 @@ The output is a **single behavioral risk score** per transaction.
 ---
 
 ## 📈 Threshold Evaluation & A/B Testing
+To operationalize the Fraud Signal Score, we test fraud signal score thresholds 3, 4, 5, 6 to see how well each cutoff separates fraud from normal traffic.
+Each threshold is compared on precision, recall, false-positive rate, lift, and TP/FP/FN/TN.
 
 Tested thresholds: **3, 4, 5, 6**
 
@@ -205,6 +208,7 @@ Tables are provided in:
 outputs/tables/threshold_metrics.csv
 outputs/tables/ab_test_results.csv
 
+---
 
 ## 📊 Model Performance Visuals
 

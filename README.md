@@ -310,16 +310,6 @@ While absolute precision is modest (normal for synthetic imbalance), the model d
 
 ---
 
-## Key Insights
-
-- Mismatch + velocity features were the strongest behavioral discriminators.  
-- Mule-behavior features separated fraud and non-fraud distributions cleanly.  
-- First-time receivers showed disproportionately high anomaly rates.  
-- Rule-based scoring delivered interpretable trade-offs suitable for real fintech risk teams.  
-- Precision was limited by dataset imbalance, but behavioral clustering remained strong.
-
----
-
 ## Future Work
 
 ### **1. Add a Lightweight ML Baseline**  

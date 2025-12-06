@@ -102,7 +102,7 @@ transaction-behavior-analytics/
 └── README.md
 ```
 
-```
+---
 
 ## Visual Gallery (EDA)
 

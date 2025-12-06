@@ -63,6 +63,7 @@ Alongside the business framing, the project serves as an end-to-end application 
 
 ## Repository Structure
 
+```
 transaction-behavior-analytics/
 │
 ├── python/

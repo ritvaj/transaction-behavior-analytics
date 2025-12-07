@@ -24,41 +24,41 @@ Alongside the business framing, the project serves as an end-to-end application 
 
 ```
 ┌──────────────────────────────────────────┐
-│              Raw Transactions             │
+│        Raw Transactions Dataset          │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│        Cleaning & Preparation             │
+│        Cleaning & Preparation            │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│     Behavioral Feature Engineering        │
-│   - mismatch signals                      │
-│   - velocity indicators                    │
-│   - balance anomalies                      │
-│   - mule-behavior scoring                  │
+│           Feature Engineering            │
+│   - mismatch signals                     │
+│   - velocity indicators                  │
+│   - balance anomalies                    │
+│   - mule-behavior scoring                │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│       Exploratory Analytics (EDA)         │
+│       Exploratory Analysis               │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│   Fraud Signal Score (Rule-Based Model)   │
+│ Fraud Signal Score (Weighted Rule-Based) │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│     Threshold Evaluation & A/B Testing    │
+│    A/B Testing & Threshold Evaluation    │
 └──────────────────────────────────────────┘
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│ Insights & High-Risk Account Detection    │
+│  Insights & High-Risk Account Detection  │
 └──────────────────────────────────────────┘
 ```
 

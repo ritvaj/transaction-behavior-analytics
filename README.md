@@ -5,7 +5,7 @@
 
 A dynamic fraud-detection scoring system built on 200,000 PaySim transactions, using Python (pandas, NumPy) to identify behavioral risk signals, anomaly pathways, that can help us single out mules and potential frauds. 
 
-The project evaluates how interpretable, rule-driven scoring can support fast, cost-efficient fraud operations before introducing machine-learning models.
+The project evaluates how interpretable, rule-driven scoring can support fast, cost-efficient fraud detection operations before introducing machine-learning models.
 
 ---
 

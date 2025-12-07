@@ -11,11 +11,12 @@ The project evaluates how interpretable, rule-driven scoring can support fast, c
 
 ## Why This Project?
 
-Fintech payment systems face fast-evolving fraud patterns where attackers exploit behavior — velocity spikes, aggregation bursts, pass-through flows — rather than simple rule violations. Detecting these anomalies early, without relying entirely on costly or opaque ML systems, is a core operational challenge.
+Fintech payment systems face fast-evolving fraud patterns where attackers show common inconsistent ledger behaviors like too many transactions in a single time window (velocity spikes), or emptying balance immediately after receiving an amount (pass-through flows) — rather than simple rule violations. Detecting these anomalies early, without relying entirely on costly or opaque ML systems, is a core operational challenge.
 
-This project examines how far behavioral analytics, engineered features, and interpretable scoring can push fraud detection on their own — before introducing machine learning. It also raises a practical question every fraud-ops team faces: *how much risk coverage can be achieved with transparent, rule-based scoring before the added cost, latency, and governance burden of ML becomes justified?*
+This project examines how far behavioral analytics, engineered features, and interpretable scoring can push fraud detection on their own before introducing machine learning! 
+It also raises a practical question every fraud-ops team faces: *how much risk coverage can be achieved with transparent, rule-based scoring before the added cost, latency, and governance burden of ML becomes justified?*
 
-Alongside the business framing, the project serves as an end-to-end application of Python (NumPy, pandas), feature engineering, anomaly exploration, and threshold evaluation on a large-scale transaction dataset.
+Alongside the business framing, the project serves as an end-to-end application of Python (NumPy, pandas), feature engineering, anomaly exploration, and A/B testing of Fraud score thresholds on a large-scale transaction dataset.
 
 ---
 

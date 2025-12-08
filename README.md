@@ -182,6 +182,7 @@ This project focuses on engineering **interpretable, rule-based signals** across
 
 The following visuals summarize how the engineered behavioral features translate into risk separation, scoring quality, and threshold performance. 
 To go through all the visuals go to:
+
 [outputs/figures](outputs/figures)
 
 
@@ -276,6 +277,7 @@ The **Precision–Recall Curve** shows that even with only baseline 0.13% fraud 
 </p>
 
 The table below shows the evaluation results:
+
 [threshold_evaluation_results.csv](outputs/tables/threshold_evaluation_results.csv)
 
 

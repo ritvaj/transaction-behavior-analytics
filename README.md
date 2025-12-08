@@ -206,20 +206,18 @@ The following visuals summarize how the engineered behavioral features translate
 
 ## Key Insights
 
-### 1. Behavioral signals clearly separate fraud from normal activity  
-Mismatch rules, velocity spikes, and mule-like aggregation consistently push fraud transactions to higher risk scores — even without ML.
-
-### 2. Mule patterns are the strongest fraud indicators  
-Fraud accounts show rapid inbound aggregation, pass-through flows, and short-term velocity bursts.  
-These behaviors are rare in normal users → high-value operational flags.
-
-### 3. Destination-side activity exposes abnormal behavior  
+### 1. Destination-side activity exposes abnormal behavior  
 Mismatch rates jump when receivers get multiple inbound payments in short windows — a classic mule consolidation pattern.
 
+### 2. Behavioral signals clearly separate fraud from normal activity  
+Mismatch rules, velocity spikes, and mule-like aggregation consistently push fraud transactions to higher risk scores even without ML.
 
+### 3. Mule behaviour shows clear separation from normal activity
+Fraud cases spread into higher mule-scores, while normal users stay tightly clustered near zero.
+This shift captures behaviours like repeated inflows, pass-through patterns, and short-term bursts which means these are the signals that appear far more often in mule-like fraud than in genuine accounts. 
 
-### 5. A small cluster of accounts drives most risk  
-Cumulative scores highlight a tiny group of accounts repeatedly triggering anomalies — ideal for targeted investigation.
+### 4. Fraud shows a mild upward shift, not extreme outliers
+Fraud cases don’t stand out as extreme outliers. Instead, they show a subtle shift toward higher scores, meaning risky behaviour emerges through accumulated weak signals rather than a single obvious anomaly.
 
 ---
 

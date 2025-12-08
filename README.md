@@ -319,13 +319,13 @@ Converting data to Parquet + performing feature engineering in DuckDB is the mos
 
 ## 📚 References
 
-- **PaySim Transaction Simulation Dataset** — Kaggle  
+- **PaySim Transaction Simulation Dataset** - Kaggle  
   https://www.kaggle.com/datasets/ealaxi/paysim1  
 
-- **pandas Documentation** — Data manipulation and feature engineering  
+- **pandas Documentation** - Data manipulation and feature engineering  
   https://pandas.pydata.org/docs/
 
-- **Matplotlib Documentation** — Plotting and visualization  
+- **Matplotlib Documentation** - Plotting and visualization  
   https://matplotlib.org/stable/contents.html
 
 

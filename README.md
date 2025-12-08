@@ -97,7 +97,7 @@ transaction-behavior-analytics/
 │   │   ├── feature_engg_mismatch.py        
         
 │   ├── analysis/
-│   │   ├── _ab_testing.py
+│   │   ├── _threshold_evaluation.py
 │   │   ├── plots.py
 │   └── README.md
 │
@@ -120,7 +120,7 @@ transaction-behavior-analytics/
 │   │   ├── summary_either_both_mismatch.csv
 │   │   ├── summary_mulescore_distribution.csv
 │   │   ├── threshold_metrics.csv
-│   │   ├── ab_test_results.csv
+│   │   ├── threshold_evaluation_results.csv
 │   │   └── top10_high_risk_accounts.csv  
 │
 └── README.md

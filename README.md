@@ -11,10 +11,10 @@ The project evaluates how interpretable, rule-driven scoring can support fast, c
 
 ## Why This Project?
 
-Fintech payment systems face fast-evolving fraud patterns where attackers show common inconsistent ledger behaviors like too many transactions in a single time window (velocity spikes), or emptying balance immediately after receiving an amount (pass-through flows) — rather than simple rule violations. Detecting these anomalies early, without relying entirely on costly or opaque ML systems, is a core operational challenge.
+Fintech payment systems face fast-evolving fraud patterns where attackers show common inconsistent ledger behaviors like too many transactions in a single time window (velocity spikes), or emptying balance immediately after receiving an amount (pass-through flows) rather than simple rule violations. Detecting these anomalies early, without relying entirely on costly or opaque ML systems, is a core operational challenge.
 
 This project examines how far behavioral analytics, engineered features, and interpretable scoring can push fraud detection on their own before introducing machine learning! 
-It also raises a practical question every fraud-ops team faces: *how much risk coverage can be achieved with transparent, rule-based scoring before the added cost, latency, and governance burden of ML becomes justified?*
+It also raises a practical question every fraud-ops team faces: *how much actual frauds can be successfully flagged with transparent, rule-based scoring before the added cost, latency, and governance burden of ML becomes justified?*
 
 Alongside the business framing, the project serves as an end-to-end application of Python (NumPy, pandas), feature engineering, anomaly exploration, and A/B testing of Fraud score thresholds on a large-scale transaction dataset.
 
@@ -43,7 +43,7 @@ Alongside the business framing, the project serves as an end-to-end application 
                      │
                      ▼
 ┌──────────────────────────────────────────┐
-│       Exploratory Analysis               │
+│          Exploratory Analysis            │
 └──────────────────────────────────────────┘
                      │
                      ▼
@@ -66,10 +66,10 @@ Alongside the business framing, the project serves as an end-to-end application 
 
 ## 🎯 Objectives
 
-- Understand transaction behavior at scale and map patterns linked to fraud signals.  
+- Understand transaction behavior at scale and map strong patterns linked to fraud signals.  
 - Engineer interpretable features (mismatch signals, velocity rules, mule behaviors, balance anomalies) and check how each feature can accurately flag transactions.  
-- Build a **Fraud Signal Score** — a weighted calculated score using multiple features that are good indicators of fraud transactions, interpretable risk index .  
-- Evaluate multiple thresholds using precision, recall, lift, and false-positive behavior.  
+- Build a **Fraud Signal Score** - a weighted, modular and easily interpretable calculated score using multiple features that are good indicators of fraud transactions, interpretable risk index.  
+- Evaluate multiple scoring thresholds against real fraud cases using precision, recall, lift, and false-positive behavior to understand operational trade-offs.
 - Identify high-risk accounts and transaction patterns for further investigation.
 
 ---

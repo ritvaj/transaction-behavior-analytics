@@ -287,7 +287,7 @@ Using the final Fraud Signal Score, we identify the top 10 destination accounts 
 These accounts exhibit behaviors typical of money-mule aggregation or pass-through flows.
 Table provided in:
 
-- [top10_high_risk_accounts.csv](outputs/tables/top10_high_risk_accounts.csv)
+[top10_high_risk_accounts.csv](outputs/tables/top10_high_risk_accounts.csv)
 
 ---
 

@@ -328,7 +328,7 @@ Converting data to Parquet + performing feature engineering in DuckDB is the mos
 - **Matplotlib Documentation** - Plotting and visualization  
   https://matplotlib.org/stable/contents.html
 
-
+---
 
 ## 👤 About Me
 
